@@ -24,7 +24,7 @@ Simple Permission Manager is an independent project with ongoing development and
 
 Simple Permission Manager is an open-sourced android library to request and manage permissions at runtime on android versions M and above. The library has been created with one thing in mind, <strong> Make Permission Management Easy for Developers</strong>. Use can leave Android Runtime Permission to SimplePermissionManager and focus on creating your application.
 
-Advantages of using SimplePermissionManager are
+<h3>Advantages of using SimplePermissionManager are</h3>
  
   - Requests a Single permission.
   - Request Group of permissions together.
@@ -35,16 +35,20 @@ Advantages of using SimplePermissionManager are
   - Irrespective of the permission status, you can make permission requests and SimplePermissionManager will take care of requesting permission, showing alert dialog, and opening settings.
   - Simple and easy Builder to create PermissionManager
 
- Responses returned using PermissionResponseListener
+ <h3>Responses returned using PermissionResponseListener</h3>
+ 
   - <strong>PermissionManager.PERMISSION_GRANTED (0)</strong>
   - <strong>PermissonManager.PERMISSION_DENIED (1)</strong>
   - <strong>PermissionManager.PERMISSION_PERMANENTLY_DENIED (-3)</strong>
 
-## How to integrate into your app
+## Screenshots
+<img src="images/request_permission.png" height="500"/>             <img src="images/alert_gialog.png" height="500"/>             <img src="images/requues_permanetly_denied.png" height="500"/>
+
+## How to integrate into your application
 
 Integrating the library into you app is extremely easy. A few changes in the build gradle and your all ready to use Simple Preference Manager. Make the following changes.
 
-Step 1. Add the JitPack repository to your build file. Add it in your root build.gradle at the end of repositories:
+<strong>Step 1.</strong> Add the JitPack repository to your project build file. Add it in your root build.gradle at the end of repositories:
 
 ```java
 allprojects {
@@ -54,7 +58,7 @@ allprojects {
   }
 }
 ```
-Step 2. Add the dependency
+<strong>Step 2.</strong> Add the dependency to your application build.gradle
 
 ```java
 dependencies {
@@ -62,8 +66,8 @@ dependencies {
 }
 ```
 
-## How to use the library
-Once you integrated the library in your project but **how do you use it**? Well its really easy just follow the steps below.
+## How to use the SimplePerferenceManager
+So you have integrated the library in your project but **how do you use it**? Well its really easy just follow the steps below.
 
 ```java
 
