@@ -110,7 +110,7 @@ List<PermissionResponse> permissionResponses = permissionManager.hasPermissions(
                 Manifest.permission.READ_CONTACTS);
 
 // To request for a permission use the requestPermission()
-// The user response will be available in the singlePermissionResponse() callback of PermissionResponseListener
+// The user response will be available in singlePermissionResponse() callback of PermissionResponseListener
 // A default message will be displayed before requesting previously denied permissions
 permissionManager.requestPermission(Manifest.permission.CAMERA);
 // You can use use the overloaded message to display a custom message in alert dialog
@@ -121,7 +121,7 @@ permissionManager.requestPermission(Manifest.permission.CAMERA, "Reason Why My A
 permissionManager.requestPermissions(Manifest.permission.CAMERA, 
                 Manifest.permission.RECORD_AUDIO, 
                 Manifest.permission.READ_CONTACTS);
-// To display a custom message use the requestPermissions() method accepting a message and String[] of permissions
+// To display custom message use requestPermissions() method accepting a message and String[] of permissions
 permissionManager.requestPermissions("Reason Why Group Of Permissions Are Needed For My App",
                 new String[]{Manifest.permission.CAMERA, 
                         Manifest.permission.RECORD_AUDIO,
