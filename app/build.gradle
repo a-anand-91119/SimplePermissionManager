@@ -1,7 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.github.dcendents.android-maven'
-group="in.notyouraveragedev"
-version="1.0"
 
 android {
     compileSdkVersion 29
