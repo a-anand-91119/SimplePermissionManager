@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PermissionManagerProject</string>
+    <string name="sms">SMS</string>
+    <string name="request_all">Request All</string>
+    <string name="location">Location</string>
+    <string name="call_log">Call Log</string>
+    <string name="storage">Storage</string>
+    <string name="go_to_next_activity">Go to Next Activity</string>
+    <string name="calender">Calender</string>
+    <string name="contact">Contact</string>
+    <string name="body_sensor">Body Sensor</string>
+    <string name="record_audio">Record Audio</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="not_now">Not Now</string>
+    <string name="continue_button_text">Continue</string>
+    <string name="permission_logo">Permission Logo</string>
+    <string name="default_request_message">This app needs the following permission to work normally</string>
+    <string name="manual_permission_message">Some Permissions Needs To Be Granted Manually</string>
+    <string name="snackbar_button_text">GRANT</string>
+</resources>

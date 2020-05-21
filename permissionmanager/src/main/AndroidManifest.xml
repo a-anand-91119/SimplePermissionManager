@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.notyouraveragedev.permissionmanager" >
+<application>
+    <activity android:name="in.notyouraveragedev.permissionmanager.RequestPermissionsActivity"
+        android:theme="@style/Theme.Transparent"/>
+</application>
+</manifest>
